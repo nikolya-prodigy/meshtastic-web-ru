@@ -31,8 +31,14 @@ jobs:
           cache: pnpm
           cache-dependency-path: '**/pnpm-lock.yaml'
 
+      - name: Temporary protobufs registry workaround
+        shell: bash
+        run: |
+          # JSR tarballs are currently unavailable in CI, so force npmjs package for fork builds.
+          node -e "const fs=require('fs');const p='package.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));j.dependencies['@meshtastic/protobufs']='npm:@meshtastic/protobufs@2.7.18';fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');"
+
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build web package
         working-directory: packages/web
