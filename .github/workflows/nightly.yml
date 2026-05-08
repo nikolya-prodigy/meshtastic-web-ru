@@ -1,8 +1,6 @@
 name: Nightly Release
 
 on:
-  schedule:
-    - cron: "0 5 * * *" # 05:00 UTC daily
   workflow_dispatch: {} # allow manual runs too
 
 permissions:
