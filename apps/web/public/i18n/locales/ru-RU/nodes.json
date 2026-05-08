@@ -45,8 +45,8 @@
     },
     "connectionStatus": {
       "direct": "Прямое",
-      "away": "от вас",
-      "viaMqtt": ", через MQTT"
+      "away": "",
+      "viaMqtt": "MQTT"
     },
     "lastHeardStatus": {
       "never": "Никогда"
