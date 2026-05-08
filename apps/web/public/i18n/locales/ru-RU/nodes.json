@@ -44,9 +44,12 @@
       "macAddress": "MAC-адрес"
     },
     "connectionStatus": {
-      "direct": "Прямой",
-      "away": "отключен",
-      "viaMqtt": ", через MQTT"
+      "direct": "Прямое",
+      "away": "",
+      "viaMqtt": "MQTT"
+    },
+    "lastHeardStatus": {
+      "never": "Никогда"
     }
   },
   "actions": {
