@@ -43,12 +43,12 @@
     "dbm": "дБм",
     "hertz": "Гц",
     "hop": {
-      "one": "Хоп",
-      "plural": "Хопов"
+      "one": "прыжок",
+      "plural": "прыжка(ов)"
     },
     "hopsAway": {
-      "one": "Прыжок {{count}}",
-      "plural": "Прыжков {{count}}",
+      "one": "{{count}} прыжок",
+      "plural": "{{count}} прыжка(ов)",
       "unknown": "Количество прыжков неизвестно"
     },
     "megahertz": "МГц",
