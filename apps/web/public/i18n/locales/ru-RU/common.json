@@ -53,7 +53,7 @@
     },
     "megahertz": "МГц",
     "kilohertz": "кГц",
-    "raw": "сырое",
+    "raw": "raw",
     "meter": {
       "one": "метр",
       "plural": "метров",
