@@ -53,7 +53,7 @@
     },
     "megahertz": "МГц",
     "kilohertz": "кГц",
-    "raw": "сырое",
+    "raw": "raw",
     "meter": { "one": "метр", "plural": "метров", "suffix": "м" },
     "kilometer": { "one": "километр", "plural": "километров", "suffix": "км" },
     "minute": { "one": "минута", "plural": "минут" },
