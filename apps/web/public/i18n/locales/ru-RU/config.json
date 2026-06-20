@@ -53,6 +53,25 @@
     "role": {
       "description": "Какую роль устройство выполняет в mesh-сети",
       "label": "Роль"
+    },
+    "gpio": {
+      "description": "Переопределение GPIO-пинов",
+      "label": "GPIO"
+    },
+    "hardware": {
+      "description": "Аппаратные переключатели",
+      "label": "Оборудование"
+    },
+    "options": {
+      "description": "Роль устройства, режим ретрансляции и интервал рассылки информации о ноде",
+      "label": "Параметры"
+    },
+    "timeZone": {
+      "description": "Часовой пояс POSIX для дат на экране устройства и в журнале",
+      "label": "Часовой пояс"
+    },
+    "useBrowserTimeZone": {
+      "label": "Использовать часовой пояс браузера"
     }
   },
   "bluetooth": {
@@ -70,6 +89,10 @@
     "pin": {
       "description": "PIN для сопряжения",
       "label": "PIN"
+    },
+    "bluetoothConfig": {
+      "description": "Конфигурация Bluetooth",
+      "label": "Конфигурация Bluetooth"
     }
   },
   "display": {
@@ -118,6 +141,22 @@
     "wakeOnTapOrMotion": {
       "description": "Пробуждать устройство по касанию или движению",
       "label": "Пробуждать по касанию или движению"
+    },
+    "advanced": {
+      "description": "Расширенные настройки экрана",
+      "label": "Дополнительно"
+    },
+    "compassOrientation": {
+      "description": "Ориентация компаса относительно экрана",
+      "label": "Ориентация компаса"
+    },
+    "deviceDisplay": {
+      "description": "Ориентация экрана и часы",
+      "label": "Экран устройства"
+    },
+    "enableMessageBubbles": {
+      "description": "Показывать входящие сообщения пузырьками на экране устройства",
+      "label": "Пузырьки сообщений"
     }
   },
   "lora": {
@@ -198,6 +237,22 @@
     "radioSettings": {
       "label": "Настройки радио",
       "description": "Настройки LoRa-радиомодуля"
+    },
+    "advancedCard": {
+      "description": "Расширенные параметры LoRa",
+      "label": "Дополнительно"
+    },
+    "femLnaMode": {
+      "description": "Управление внешним RF front-end модулем / малошумящим усилителем (только на платах, где он есть)",
+      "label": "Режим FEM/LNA"
+    },
+    "optionsCard": {
+      "description": "Основные параметры LoRa",
+      "label": "Параметры"
+    },
+    "serialHalOnly": {
+      "description": "Обмениваться с радиомодулем только через Serial HAL",
+      "label": "Только Serial HAL"
     }
   },
   "network": {
@@ -241,7 +296,8 @@
       "label": "Включено"
     },
     "meshViaUdp": {
-      "label": "Mesh-сеть через UDP"
+      "label": "Mesh-сеть через UDP",
+      "description": "Пересылать пакеты mesh-сети через UDP"
     },
     "ntpServer": {
       "label": "NTP-сервер"
@@ -268,6 +324,18 @@
     "udpConfigSettings": {
       "description": "Конфигурация UDP поверх mesh-сети",
       "label": "Настройки UDP"
+    },
+    "advancedCard": {
+      "description": "NTP, rsyslog, режим IPv4 и переопределение адресов",
+      "label": "Дополнительно"
+    },
+    "ethernetOptionsCard": {
+      "description": "Конфигурация Ethernet",
+      "label": "Параметры Ethernet"
+    },
+    "wifiOptions": {
+      "description": "Конфигурация WiFi",
+      "label": "Параметры WiFi"
     }
   },
   "position": {
@@ -346,6 +414,23 @@
       "unset": "Не задано",
       "vehicleHeading": "Курс",
       "vehicleSpeed": "Скорость"
+    },
+    "advancedDeviceGps": {
+      "description": "Переопределение GPIO-пинов для GPS-оборудования",
+      "label": "Расширенные настройки GPS устройства"
+    },
+    "deviceGps": {
+      "description": "Конфигурация GPS устройства",
+      "label": "GPS устройства"
+    },
+    "positionPacket": {
+      "description": "Конфигурация рассылки позиции",
+      "label": "Пакет позиции"
+    },
+    "useBrowserLocation": {
+      "busy": "Получение местоположения...",
+      "failed": "Не удалось получить местоположение браузера",
+      "label": "Использовать местоположение браузера"
     }
   },
   "power": {
@@ -388,6 +473,10 @@
     "sleepSettings": {
       "description": "Настройки сна модуля питания",
       "label": "Настройки сна"
+    },
+    "powerConfig": {
+      "description": "Конфигурация питания и сна",
+      "label": "Конфигурация питания"
     }
   },
   "security": {
@@ -437,6 +526,22 @@
     "loggingSettings": {
       "description": "Настройки логирования",
       "label": "Настройки логирования"
+    },
+    "adminKeysCard": {
+      "description": "Ключи аутентификации администратора",
+      "label": "Ключи администратора"
+    },
+    "administration": {
+      "description": "Управляемый режим и старый канал администратора",
+      "label": "Администрирование"
+    },
+    "directMessageKey": {
+      "description": "Публичный и приватный ключи для личных сообщений",
+      "label": "Ключ личных сообщений"
+    },
+    "logsCard": {
+      "description": "Конфигурация журналирования",
+      "label": "Журналы"
     }
   },
   "user": {
@@ -465,6 +570,18 @@
     "isLicensed": {
       "label": "Лицензированный радиолюбитель (HAM)",
       "description": "Включите, если вы лицензированный радиолюбитель; это отключает шифрование и несовместимо с сетью Meshtastic по умолчанию."
+    },
+    "hardwareModel": {
+      "description": "Только чтение - сообщает устройство",
+      "label": "Модель оборудования"
+    },
+    "nodeId": {
+      "description": "Только чтение - назначается устройством",
+      "label": "ID ноды"
+    },
+    "userConfig": {
+      "description": "Идентификация и лицензирование",
+      "label": "Конфигурация пользователя"
     }
   }
 }
