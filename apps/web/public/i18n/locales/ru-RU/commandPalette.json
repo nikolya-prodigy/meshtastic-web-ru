@@ -1,50 +1,50 @@
 {
-  "emptyState": "Ничего не найдено",
+  "emptyState": "Результаты не найдены.",
   "page": {
-    "title": "Меню команд"
+    "title": "Командное меню"
   },
   "pinGroup": {
-    "label": "Закрепить меню"
+    "label": "Закрепить группу команд"
   },
   "unpinGroup": {
-    "label": "Открепить меню"
+    "label": "Открепить группу команд"
   },
   "goto": {
-    "label": "Перейти в меню",
+    "label": "Перейти",
     "command": {
       "messages": "Сообщения",
       "map": "Карта",
-      "config": "Настройка",
-      "nodes": "Узлы"
+      "config": "Настройки",
+      "nodes": "Ноды"
     }
   },
   "manage": {
-    "label": "Управление узлами",
+    "label": "Управление",
     "command": {
-      "switchNode": "Сменить ноду",
+      "switchNode": "Переключить ноду",
       "connectNewNode": "Подключить новую ноду"
     }
   },
   "contextual": {
-    "label": "Контекстное меню",
+    "label": "Контекстные",
     "command": {
       "qrCode": "QR-код",
       "qrGenerator": "Генератор",
-      "qrImport": "Импортировать",
+      "qrImport": "Импорт",
       "scheduleShutdown": "Запланировать выключение",
       "scheduleReboot": "Перезагрузить устройство",
-      "resetNodeDb": "Стереть базу данных нод",
+      "resetNodeDb": "Сбросить базу нод",
       "dfuMode": "Войти в режим DFU",
-      "factoryResetDevice": "Сброс устройства к заводским установкам",
-      "factoryResetConfig": "Сброс настроек к заводским установкам",
+      "factoryResetDevice": "Сброс устройства к заводским настройкам",
+      "factoryResetConfig": "Сброс настроек к заводским",
       "disconnect": "Отключиться"
     }
   },
   "debug": {
-    "label": "Debug",
+    "label": "Отладка",
     "command": {
-      "reconfigure": "Настроить заново",
-      "clearAllStoredMessages": "Удалить все сохранённые сообщения",
+      "reconfigure": "Перенастроить",
+      "clearAllStoredMessages": "Очистить все сохранённые сообщения",
       "clearAllStores": "Очистить всё локальное хранилище"
     }
   }

@@ -1,34 +1,71 @@
 {
   "page": {
-    "title": "Подключиться к Meshtastic устройству",
-    "description": "Добавьте подключение к устройству через HTTP, Bluetooth, или COM-порт. Подключения будут сохранены в браузере"
+    "title": "Подключение к устройству Meshtastic",
+    "description": "Добавьте подключение по HTTP, Bluetooth или COM-порту. Сохранённые подключения будут храниться в вашем браузере."
   },
   "connectionType_ble": "BLE",
   "connectionType_serial": "COM-порт",
   "connectionType_network": "Сеть",
   "deleteConnection": "Удалить подключение",
-  "areYouSure": "Это приведет к удалению {{name}}. Это действие нельзя отменить",
-  "moreActions": "Ещё действия",
+  "areYouSure": "Это удалит {{name}}. Это действие нельзя отменить.",
+  "moreActions": "Другие действия",
   "noConnections": {
-    "title": "Пока нет подключений",
-    "description": "Создайте ваше первое соединение. Оно будет сохранено."
+    "title": "Подключений пока нет.",
+    "description": "Создайте первое подключение. Оно подключится сразу и сохранится на будущее."
   },
   "lastConnectedAt": "Последнее подключение: {{date}}",
-  "neverConnected": "Никогда не подключался",
+  "neverConnected": "Никогда не подключалось",
+  "default": "По умолчанию",
+  "button": {
+    "addConnection": "Добавить подключение",
+    "connect": "Подключиться",
+    "disconnect": "Отключиться",
+    "retry": "Повторить",
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "setDefault": "Сделать по умолчанию",
+    "unsetDefault": "Снять по умолчанию",
+    "rename": "Переименовать",
+    "edit": "Изменить"
+  },
+  "renameConnection": "Переименовать подключение",
+  "renameDescription": "Введите новое имя для этого подключения.",
+  "nameLabel": "Имя",
+  "editConnection": {
+    "title": "Изменить подключение",
+    "description": "Измените настройки этого подключения."
+  },
   "toasts": {
     "connected": "Подключено",
-    "nowConnected": "{{name}} подключен",
-    "nowDisconnected": "{{name}} отключен",
+    "nowDisconnected": "Отключено: {{name}}",
     "disconnected": "Отключено",
     "failed": "Не удалось подключиться",
-    "checkConnetion": "Проверьте ваше устройство или настройки и повторите попытку",
-    "defaultSet": "Настройки по умолчанию установлены",
-    "defaultConnection": "Соединение по умолчанию теперь {{nameisconnected}}",
+    "checkConnection": "Проверьте устройство или настройки и попробуйте снова",
+    "defaultSet": "По умолчанию",
+    "defaultConnection": "Теперь подключение по умолчанию: {{nameisconnected}}",
     "deleted": "Удалено",
-    "deletedByName": "{{name}} был удален",
-    "pickConnectionAgain": "Не удалось подключиться. Возможно, потребуется выбрать другой порт/устройство",
+    "deletedByName": "Удалено: {{name}}",
+    "pickConnectionAgain": "Не удалось подключиться. Возможно, нужно заново выбрать устройство/порт.",
     "added": "Подключение добавлено",
-    "savedByName": "{{name}} сохранено",
-    "savedCantConnect": "Соединение было сохранено, но не удалось подключиться"
+    "savedByName": "{{name}} сохранено.",
+    "savedCantConnect": "Подключение сохранено, но подключиться не удалось.",
+    "renamed": "Переименовано",
+    "renamedByName": "Подключение переименовано в {{name}}.",
+    "updated": "Обновлено",
+    "updatedByName": "{{name}} обновлено."
+  },
+  "overlay": {
+    "phase": {
+      "connecting": "Открытие транспорта...",
+      "configuring": "Получение конфигурации..."
+    },
+    "chip": {
+      "identity": "Идентификация",
+      "metadata": "Метаданные",
+      "channels": "Каналы",
+      "nodes": "Ноды"
+    },
+    "stuckHint": "Дольше обычного. Возможно, устройство находится в режиме CLI/bootloader или прошивка не отвечает на запросы конфигурации.",
+    "cancel": "Отмена"
   }
 }
