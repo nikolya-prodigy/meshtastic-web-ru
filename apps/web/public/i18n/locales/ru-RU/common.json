@@ -31,7 +31,8 @@
     "unsetDefault": "Снять по умолчанию",
     "scanQr": "Сканировать QR-код",
     "traceRoute": "Трассировка маршрута",
-    "submit": "Отправить"
+    "submit": "Отправить",
+    "saveChanges": "Сохранить изменения"
   },
   "app": {
     "title": "Meshtastic",
@@ -109,7 +110,8 @@
       "one": "градус",
       "plural": "градусов",
       "suffix": "°"
-    }
+    },
+    "db": "дБ"
   },
   "security": {
     "0bit": "Пусто",
