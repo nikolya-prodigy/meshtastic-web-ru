@@ -30,6 +30,44 @@
     "added": "Подключение добавлено",
     "savedByName": "{{name}} сохранено.",
     "savedCantConnect": "Подключение сохранено, но подключиться не удалось.",
-    "checkConnetion": "Check your device or settings and try again"
-  }
+    "renamed": "Переименовано",
+    "renamedByName": "Подключение переименовано в {{name}}.",
+    "updated": "Обновлено",
+    "updatedByName": "{{name}} обновлено."
+  },
+  "button": {
+    "addConnection": "Добавить подключение",
+    "cancel": "Отмена",
+    "connect": "Подключиться",
+    "delete": "Удалить",
+    "disconnect": "Отключиться",
+    "edit": "Изменить",
+    "rename": "Переименовать",
+    "retry": "Повторить",
+    "setDefault": "Сделать по умолчанию",
+    "unsetDefault": "Снять по умолчанию"
+  },
+  "default": "По умолчанию",
+  "editConnection": {
+    "description": "Измените настройки этого подключения.",
+    "title": "Изменить подключение"
+  },
+  "nameLabel": "Имя",
+  "overlay": {
+    "cancel": "Отмена",
+    "chip": {
+      "channels": "Каналы",
+      "identity": "Идентификация",
+      "metadata": "Метаданные",
+      "nodes": "Ноды"
+    },
+    "phase": {
+      "configuring": "Получение конфигурации...",
+      "connecting": "Открытие транспорта..."
+    },
+    "srTitle": "Подключение к устройству",
+    "stuckHint": "Дольше обычного. Возможно, устройство находится в режиме CLI/bootloader или прошивка не отвечает на запросы конфигурации."
+  },
+  "renameConnection": "Переименовать подключение",
+  "renameDescription": "Введите новое имя для этого подключения."
 }

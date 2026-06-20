@@ -226,9 +226,5 @@
   "footer": {
     "text": "Работает на <0>▲ Vercel</0> | Meshtastic® — зарегистрированный товарный знак Meshtastic LLC. | <1>Юридическая информация</1>",
     "commitSha": "SHA коммита: {{sha}}"
-  },
-  "language": {
-    "label": "Язык",
-    "changeLanguage": "Change Language"
   }
 }
