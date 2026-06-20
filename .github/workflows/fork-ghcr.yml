@@ -33,11 +33,11 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build web package
-        working-directory: packages/web
+        working-directory: apps/web
         run: pnpm run build
 
       - name: Package output
-        working-directory: packages/web
+        working-directory: apps/web
         run: pnpm run package
 
       - name: Compute meta
@@ -77,7 +77,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: ./packages/web/infra/Containerfile
+          file: ./apps/web/infra/Containerfile
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
           tags: ${{ steps.meta.outputs.tags }}
