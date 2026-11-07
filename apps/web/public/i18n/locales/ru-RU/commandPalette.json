@@ -18,6 +18,9 @@
       "nodes": "Ноды"
     }
   },
+  "settings": {
+    "label": "Настройки"
+  },
   "manage": {
     "label": "Управление",
     "command": {
